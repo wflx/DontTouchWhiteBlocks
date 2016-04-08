@@ -17,7 +17,6 @@ bool HelloWorld::init()
     {
         return false;
     }
-    printf("change");
     srand((unsigned)time(NULL));//初始化随机数种子
     visibleSize = Director::getInstance()->getVisibleSize();
     gameLayer = Node::create();
